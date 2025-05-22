@@ -17,6 +17,7 @@ export const Router = () => {
             <Route path={routesBook.people()} element={<People/>}/>
             <Route path={routesBook.tops()} element={<Tops/>}/>
             <Route path={routesBook.home()} element={<Home/>}/>
+            <Route path="*" element={<Home/>} />
         </Routes>
     )
 }
