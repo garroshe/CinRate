@@ -1,7 +1,18 @@
+import {ThemeProvider} from 'styled-components';
+import {BrowserRouter} from "react-router-dom";
+import {Header} from "./layouts/Header/Header.tsx";
+import {theme} from "./themes/themes.ts";
+import {Router} from "./router/Router";
+
 function App() {
   return (
     <>
-      Hello
+        <BrowserRouter>
+            <ThemeProvider theme={theme}>
+                <Header />
+                <Router/>
+            </ThemeProvider>
+        </BrowserRouter>
     </>
   )
 }
