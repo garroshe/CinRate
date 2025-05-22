@@ -1,4 +1,4 @@
-import {StyledNav, StyledNavLink} from "./styled.tsx";
+import {StyledNav, StyledNavLink} from "./styled";
 import {useTranslation} from "react-i18next";
 
 export const Navigation = () => {

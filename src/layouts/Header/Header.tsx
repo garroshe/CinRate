@@ -1,8 +1,8 @@
-import {StyledHeader} from "./styled.tsx";
+import {StyledHeader} from "./styled";
 
-import { Logo} from "./components/Logo/Logo.tsx";
-import {Navigation} from "./components/Navigation/Navigation.tsx";
-import {Language} from "./components/Language/Language.tsx";
+import { Logo} from "./components/Logo/Logo";
+import {Navigation} from "./components/Navigation/Navigation";
+import {Language} from "./components/Language/Language";
 import {WatchList} from "./components/WatchList/WatchList";
 import {Search} from "./components/Search/Search";
 

@@ -1,4 +1,4 @@
-import {StyledSelectLen} from "./styled.tsx";
+import {StyledSelectLen} from "./styled";
 import { useTranslation } from 'react-i18next';
 import type {ChangeEvent} from "react";
 
