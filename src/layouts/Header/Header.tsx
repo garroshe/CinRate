@@ -5,6 +5,7 @@ import {Navigation} from "./components/Navigation/Navigation";
 import {Language} from "./components/Language/Language";
 import {WatchList} from "./components/WatchList/WatchList";
 import {Search} from "./components/Search/Search";
+import {MyButton} from "../../components/ui/DropDownUi/DropDownUi";
 
 export const Header = () => {
     return (
@@ -14,6 +15,7 @@ export const Header = () => {
             <WatchList/>
             <Search/>
             <Language/>
+            <MyButton/>
         </StyledHeader>
     )
 }

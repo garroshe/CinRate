@@ -1,4 +1,4 @@
-import {Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import {routesBook} from "./routes";
 
 import {Movie} from "../pages/Movie/Movie";
@@ -17,6 +17,7 @@ export const Router = () => {
             <Route path={routesBook.people()} element={<People/>}/>
             <Route path={routesBook.tops()} element={<Tops/>}/>
             <Route path={routesBook.home()} element={<Home/>}/>
+            <Route path="/" element={<Navigate to={routesBook.home()} />} />
             <Route path="*" element={<Home/>} />
         </Routes>
     )

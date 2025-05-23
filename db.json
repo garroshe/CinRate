@@ -1,8 +1,11 @@
 {
-  "post": {
+  "movie": {
+    "post": {
 
-  },
-  "get": {
-
+    },
+    "get": {
+      "id": 1,
+      "name": "test"
+    }
   }
 }
